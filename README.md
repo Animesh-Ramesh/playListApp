@@ -22,7 +22,7 @@ Please make sure to configure the database credentials in application.properties
 
 Please note that these steps assume that you have Java and a build tool (Maven) already installed on your machine(https://maven.apache.org/index.html). 
 
-Run the backed to expose Api
+Run the Backend to expose API
 
 Navigate to the project directory by running the command cd playlist
 
@@ -34,7 +34,7 @@ Please make sure to configure the database credentials in application.properties
 
 Please note that these steps assume that you have Java and a build tool (Maven) already installed on your machine(https://maven.apache.org/index.html).
 
-List of Apis exposed
+List of APIs exposed
 
 GET /api/songs : This API will retrieve a list of all songs. It will accept an optional query parameter all which if set to true will return all songs, otherwise it will return a paginated list of songs.
 
@@ -56,6 +56,8 @@ GET /api/songs/title?name={title} : This API will retrieve a list of songs by ti
 GET /api/songs/count : This API will retrieve the total number of songs in the database.
 
 PUT /api/songs/id/rate : This API will update the rating of a song by id. It will accept a request body of int rating and query parameter "id" which is the id of the song.
+
+Running UI
 
 In a separate terminal, navigate to the playlistApp folder and install the required dependencies by running:
 
