@@ -11,11 +11,11 @@ Download and install MySQL server (https://dev.mysql.com/doc/mysql-installation-
 Start MYSQL server (mysql -u root) and create a new database for the project (CREATE DATABASE Playlist).
 
 Create the required songs table using the ParseData Java Project.
-Navigate to the root directory of the ParseData project and run the following command to install the dependencies:
-For this step you would either require maven integrated into your IDE(intellij) or you would need to install and set it up to run on terminal (https://maven.apache.org/index.html)
-mvn clean install
 
-
+Navigate to the "ParseData" directory by running the command cd playListApp/ParseData
+Build the project using a build tool such as Maven. The project uses Maven, you can build it by running the command mvn clean install. 
+Once the project is built, you can run it by executing the command mvn exec:java
+Please note that these steps assume that you have Java and a build tool (Maven) already installed on your machine(https://maven.apache.org/index.html). 
 
 Navigate to the root directory of the project and run the following command to install the dependencies:
 mvn clean install
