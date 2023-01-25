@@ -70,12 +70,12 @@ sudo npm start or npm start
 The app will be running at http://localhost:3000.
 
 
-Features
+Features:-
 Manage playlist
 Search for songs
 Update Star Rating
 
-Built With
+Built With:-
 Spring Boot
 MySQL
 React
