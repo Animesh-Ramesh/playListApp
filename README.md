@@ -71,12 +71,12 @@ The app will be running at http://localhost:3000.
 
 
 Features:-
-Manage playlist
-Search for songs
+Manage playlist,
+Search for songs,
 Update Star Rating
 
 Built With:-
-Spring Boot
-MySQL
+Spring Boot,
+MySQL,
 React
 
