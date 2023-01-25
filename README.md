@@ -43,7 +43,7 @@ GET /api/songs/count : This API will retrieve the total number of songs in the d
 
 PUT /api/songs/id/rate : This API will update the rating of a song by id. It will accept a request body of int rating and query parameter "id" which is the id of the song.
 
-In a separate terminal, navigate to the client folder and install the required dependencies by running:
+In a separate terminal, navigate to the playlistApp folder and install the required dependencies by running:
 sudo npm install --legacy-peer-deps or npm install --legacy-peer-deps
 Start the React development server by running:
 sudo npm start or npm start
